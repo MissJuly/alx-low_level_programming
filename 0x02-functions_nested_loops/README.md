@@ -60,4 +60,9 @@
 * Returns the value of the last digit
 ~~~~
 
-8. *
+8. *8-24_hours.c*
+~~~~
+* Prototype: void jack_bauer(void);
+~~~~
+
+9. *
