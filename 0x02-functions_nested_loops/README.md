@@ -1,6 +1,6 @@
 # **0x02.C - Functions, Nested loops**
 
-### **This files show the description of each task**
+### **This file show the description of each task**
 
 0. *0-putchar.c*
 `Write a program that prints _putchar, followed by a new line.`
@@ -65,4 +65,10 @@
 * Prototype: void jack_bauer(void);
 ~~~~
 
-9. *
+9. *9-times_table.c*
+`Write a function that prints the 9 times table, starting with 0.`
+~~~~
+* Prototype: void times_table(void);
+~~~~
+
+10 *
