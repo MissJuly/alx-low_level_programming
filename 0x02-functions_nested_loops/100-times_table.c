@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_times_table - Prints multiplication table
+ * print_times_table - Prints multiplication table up to param
  * @n: The number being computed
  *
  * Return: Number matrix
@@ -22,6 +22,14 @@ void print_times_table(int n)
 					_putchar(',');
 					_putchar(32);
 					_putchar((c / 100) + '0');
+					_putchar(((c / 10) % 10) + '0');
+					_putchar((c % 10) + '0');
+				}
+				else if (c > 9)
+				{
+					_putchar(',');
+					_putchar(32);
+					_putchar(32);
 					_putchar(((c / 10) % 10) + '0');
 					_putchar((c % 10) + '0');
 				}
