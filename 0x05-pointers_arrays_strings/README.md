@@ -32,4 +32,10 @@
 * Prototype: void print_rev(char *s);
 ~~~~
 
-5.*
+5.*5-rev_string.c*
+`Write a function that reverses a string.`
+~~~~
+* Prototype: void rev_string(char *s);
+~~~~
+
+6. *
