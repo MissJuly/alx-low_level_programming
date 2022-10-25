@@ -17,7 +17,7 @@ void rev_string(char *s)
 		c++;
 	}
 
-	c = c- 1;
+	c = c - 1;
 	while (c >= 0)
 	{
 		*(s + c) = *(str + k);
