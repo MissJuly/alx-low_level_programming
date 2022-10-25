@@ -14,5 +14,10 @@
 * Prototype: void swap_int(int *a, int *b);
 ~~~~
 
-2. *
+2. *2-strlen.c*
+`Write a function that returns the length of a string.`
+~~~~
+* Prototype: int _strlen(char *s);
+~~~~
 
+3. *
