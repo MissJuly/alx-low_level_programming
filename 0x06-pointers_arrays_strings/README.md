@@ -69,7 +69,7 @@ it will use at most n bytes from src; and
 * You are not allowed to use any ternary operation
 ~~~~
 
-8. *8-rot13.c*
+8. *100-rot13.c*
 `Write a function that encodes a string using rot13.`
 ~~~~
 * Prototype: char *rot13(char *);
