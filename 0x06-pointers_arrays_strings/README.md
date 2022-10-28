@@ -20,7 +20,7 @@ it will use at most n bytes from src; and
 * Return a pointer to the resulting string dest
 ~~~~
 
-2. *2-strcpy.c*
+2. *2-strncpy.c*
 `Write a function that copies a string.`
 ~~~~
 * Prototype: char *_strncpy(char *dest, char *src, int n);
@@ -34,4 +34,24 @@ it will use at most n bytes from src; and
 * Your function should work exactly like strcmp
 ~~~~
 
-4. *
+4. *4-rev_array.c*
+`Write a function that reverses the content of an array of integers.`
+~~~~
+* Prototype: void reverse_array(int *a, int n);
+* Where n is the number of elements of the array
+~~~~
+
+5. *5-string_toupper.c*
+`Write a function that changes all lowercase letters of a string to uppercase.`
+~~~~
+* Prototype: char *string_toupper(char *);
+~~~~
+
+6. *6-cap_string.c*
+`Write a function that capitalizes all words of a string.`
+~~~~
+* Prototype: char *cap_string(char *);
+* Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
+~~~~
+
+7. *
