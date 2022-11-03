@@ -32,5 +32,5 @@ int _find_sqrt(int n, int l)
 	if (sqrt == n)
 		return (l);
 
-	return (_find_sqrt(n, l++));
+	return (_find_sqrt(n, l + 1));
 }
