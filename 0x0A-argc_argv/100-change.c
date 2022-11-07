@@ -10,8 +10,7 @@
  * Return: 1 on Error, 0 Always (Success)
  */
 int main(int argc, char *argv[])
-{
-	int cents, coins = 0;
+{	int cents, coins = 0;
 
 	if (argc == 2)
 	{
@@ -45,7 +44,8 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-	else{
+	else
+	{
 		printf("Error\n");
 		return (1);
 	}
