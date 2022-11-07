@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-
 /**
  * main - Prints minimum number of coins to make change, for an amount of money
  * @argc: the argument count
  * @argv: the array of arguments string
+ *
  * Return: 1 on Error, 0 Always (Success)
  */
 int main(int argc, char *argv[])
@@ -45,10 +45,10 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-	else
+	else{
 		printf("Error\n");
 		return (1);
-
+	}
 	printf("%d\n", coins);
 	return (0);
 }
