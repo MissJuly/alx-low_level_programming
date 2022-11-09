@@ -59,7 +59,7 @@
 * An empty string is a palindrome
 ~~~~
 
-8. *101-wildcmp.c*
+8. *[101-wildcmp.c](101-wildcmp.c)*
 `Write a function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0.`
 ~~~~
 * Prototype: int wildcmp(char *s1, char *s2);
