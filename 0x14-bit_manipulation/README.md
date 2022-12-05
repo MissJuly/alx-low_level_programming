@@ -2,7 +2,7 @@
 
 ### **This file gives a detailed description of what each task entails in this project**
 
-0. *[0-binary_to_unit.c](0-binary_to_unit.c)*
+0. *[0-binary_to_uint.c](0-binary_to_uint.c)*
 `Write a function that converts a binary number to an unsigned int.`
 ~~~~
 * Prototype: unsigned int binary_to_uint(const char *b);
