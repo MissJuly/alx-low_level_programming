@@ -2,13 +2,13 @@
 
 /**
  * _binary_search - Searches for a value in a sorted array
- * of intergers using binary search.
- * @array: a pointer to the first element of the array to search
- * @left: the number of elements at the left side in array
- * @right: the number of elements at the right side in array
- * @value: the value to search for
- * Return: if the value is not present or the array is Null, -1,
- * otherwise, the index where the value is located
+ * of integers using binary search.
+ * @array: pointer to the first element of the array to search
+ * @left: The starting index of the [sub]array to search.
+ * @right: The ending index of the [sub]array to search.
+ * @value: The value to search for.
+ * Return: If value is not present in array or if array is NULL, -1.
+ * else,  index where value is located
  */
 int _binary_search(int *array, size_t left, size_t right, int value)
 {
@@ -16,9 +16,10 @@ int _binary_search(int *array, size_t left, size_t right, int value)
 
 	if (array == NULL)
 		return (-1);
+
 	while (right >= left)
 	{
-		printf("Seraching in array: ");
+		printf("Searching in array: ");
 		for (i = left; i < right; i++)
 			printf("%d, ", array[i]);
 		printf("%d\n", array[i]);
@@ -36,13 +37,13 @@ int _binary_search(int *array, size_t left, size_t right, int value)
 }
 
 /**
- * exponential_search - searches for a value in a sorted array
- * of integers using the exponential search algorithm.
- * @array: is a pointer to the first element of the array to search in
- * @size: is the number of elements in array
- * @value: is the number of elements in array
+ * exponential_search - Searches for a value in a sorted array
+ * of integers using the Exponential search algorithmim
+ * @array: pointer to the first element of the array to search
+ * @size: the number of elements in array
+ * @value: the value to search
  * Return: If value is not present in array or if array is NULL, -1.
- * else, index where value is located
+ * else,  index where value is located
  */
 int exponential_search(int *array, size_t size, int value)
 {
